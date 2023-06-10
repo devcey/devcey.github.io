@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>devceys homeground</title>
+        <title>devceys homeground - rebuild</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta author="devcey">
-        <meta lang="eng"> 
+        <meta lang="eng">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">  
             <style>
                 html {
-                    font-family: sans-serif;
+                    font-family: 'Silkscreen', cursive;
+                    background-image: url(starfield.gif);
+                    background-color:black;
+                    background-size:cover;
+                    font-size:20px
                 }
-                header {
-                    border-bottom: ridge black 5px;
-                    line-height:0px;
-                    position:fixed;
-                    top:0px;
-                    left:0px;
-                    width:100%;
-                    background-color:white;
-                    z-index:1;
+                article {
+                    border:6px black ridge;
+                    background-color:darkslateblue;
+                    color:white;
+                    text-align:center;
+                    margin:auto;
+                    width:800px;
+                    vertical-align: middle;
+                    padding-bottom:30px;
                 }
-                .sidebar {
-                    position:fixed;
-                    height:100%;
-                    border: ridge black 5px;
-                    width: 250px; 
-                    background-color:#d7d7d7;
-                    left:0px;
-                 }
-                .navtext {
-                   text-align:center;
-                   }
-                .content{
-                    position:absolute;
-                    top:50px;
-                    left:270px;
-                    width:70%;
-                    height:90%;
+                article a {
+                    color:white;
                 }
-                a {
-                    color:black;
+                nav {
+                    width:800px;
+                    margin:auto;
+                    margin-bottom:32px;
+                    box-shadow:0 0 1px solid black;
+                    font-size:0px;
+
                 }
-                
+                nav a {
+                    width:25%;
+                    font-size:20px;
+                    text-decoration:none;
+                    color:white;
+                    box-shadow:0 0 1px black;
+                    margin:auto;
+                    display:inline-block;
+                    padding:3px 0;
+                }
+                .albumcover {
+                    width:240px;
+                    border-radius:5px;
+                    float:right;
+                    padding-right:5%;
+                }
+                .songs {
+                    text-align:left;
+                    padding-left:5%;
+                    padding-right:5%;
+                }
             </style>
     </head>
     <body>
-      <header>
-        <a href="index.html"><img class="header" src="devceyshomeground.png" alt="devceys homeground"></a>
-      </header>
-      <div class="body">
-        <div class="sidebar">
-            <br><br>
-            <p class="navtext"><b>Navigation</b></p>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="music.html">Music</a></li>
-                <ul>
-                <li><a href="one-eins-uno.html">one-eins-uno</a></li>
-                <li><a href="eshopremix.html">eShop-Remix</a></li>
-                <li><b>mifa</b></li>
-                </ul>
-                <li><a href="unnecessary.html">Unnecessary facts</a></li>
-                <li><a href="desktop.html">Desktop layouts</a></li>
-            </ul>
-        </div>
+      <article>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="desktop.html">Desktops</a>
+        </nav>
         
-        
-        
-        <div class="content">
-            <h1>mifa</h1>
-            <h3>2023</h3>
-            <img src="./music/mifa/mifa.png" alt="mifa album cover" width="240px" height="240px">
-            <p>Honestly, my first ever actual "album", I suppose. I started work on it when I wanted to try out Famitracker and really liked it. All of the songs in here are made with it. Currently still working on it, but since you're here: congratulations! You found a little sneak peek of my first two songs.</p>
+        <h1>Music - mifa</h1>
+       
+        <img class="albumcover" src="./music/mifa/mifa.png">
+
+        <div class="songs">
             <h2>cave</h2>
             <p>First one I ever made. Triangle wave go brrrr</p>
             <audio
@@ -82,14 +85,15 @@
             <audio
                 controls
                 src="./music/mifa/doodaadiiduu.mp3">Browser cannot play the audio.</audio>
-            <h2>Songs that will eventually be released:</h2>
+
+            <p>Eventually gonna publish these songs:</p>
+
             <ul>
                 <li>overloading error</li>
             </ul>
         </div>
-        
-        
-        
-        </div>
+        <a href="music.html">Back to albums</a>
+      </article>
+
     </body>
 </html>
