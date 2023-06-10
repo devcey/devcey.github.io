@@ -1,81 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>devceys homeground</title>
+        <title>devceys homeground - rebuild</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta author="devcey">
-        <meta lang="eng"> 
+        <meta lang="eng">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">  
             <style>
                 html {
-                    font-family: sans-serif;
+                    font-family: 'Silkscreen', cursive;
+                    background-image: url(starfield.gif);
+                    background-color:black;
+                    background-size:cover;
+                    font-size:20px
                 }
-                header {
-                    border-bottom: ridge black 5px;
-                    line-height:0px;
-                    position:fixed;
-                    top:0px;
-                    left:0px;
-                    width:100%;
-                    background-color:white;
-                    z-index:1;
+                article {
+                    border:6px black ridge;
+                    background-color:darkslateblue;
+                    color:white;
+                    text-align:center;
+                    margin:auto;
+                    width:800px;
                 }
-                .sidebar {
-                    position:fixed;
-                    height:100%;
-                    border: ridge black 5px;
-                    width: 250px; 
-                    background-color:#d7d7d7;
-                    left:0px;
-                 }
-                .navtext {
-                   text-align:center;
-                   }
-                .content{
-                    position:absolute;
-                    top:50px;
-                    left:270px;
-                    width:70%;
-                    height:90%;
+                article a {
+                    color:white;
                 }
-                a {
-                    color:black;
+                nav {
+                    width:800px;
+                    margin:auto;
+                    margin-bottom:32px;
+                    box-shadow:0 0 1px solid black;
+                    font-size:0px;
+
                 }
-                
+                nav a {
+                    width:25%;
+                    font-size:20px;
+                    text-decoration:none;
+                    color:white;
+                    box-shadow:0 0 1px black;
+                    margin:auto;
+                    display:inline-block;
+                    padding:3px 0;
+                }
             </style>
     </head>
     <body>
-      <header>
-        <a href="index.html"><img class="header" src="devceyshomeground.png" alt="devceys homeground"></a>
-      </header>
-      <div class="body">
-        <div class="sidebar">
-            <br><br>
-            <p class="navtext"><b>Navigation</b></p>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><b>Music</b></li>
-                <ul>
-                <li><a href="one-eins-uno.html">one-eins-uno</a></li>
-                <li><a href="eshopremix.html">eShop-Remix</a></li>
-                <li><a href="mifa.html">mifa</a></li>
-                </ul>
-                <li><a href="unnecessary.html">Unnecessary facts</a></li>
-                <li><a href="desktop.html">Desktop layouts</a></li>
-            </ul>
-        </div>
+      <article>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="unnecessary.html">Hobbies</a>
+        <a href="desktop.html">Desktops</a>
+        </nav>
         
-        
-        
-        <div class="content">
-            <h1>Music</h1>
+        <h1>Music</h1>
             <a href="one-eins-uno.html"><img src="./music/one-eins-uno/one-eins-uno.png" width="240px" height="240px" alt="one-eins-uno"></a>
             <a href="eshopremix.html"><img src="./music/eshop/eshop.png" width="240px" height="240px" alt="eShop-Remix"></a>
             <a href="mifa.html"><img src="./music/mifa/mifa.png" width="240px" height="240px" alt="mifa"></a>
-        </div>
         
-        
-        
-        </div>
+      </article>
+
     </body>
 </html>
