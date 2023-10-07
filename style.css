@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Space+Mono&display=swap');
+
+body {
+    background-image: url(background.jpg);
+    background-repeat:repeat;
+    font-family: 'Space Mono', monospace;
+}
+#container {
+    max-width:44%;
+    margin:0 auto;
+    background-color: #3C096C;
+    color:#E0AAFF;
+    border: 5px ridge #10002B;
+}
+#header {
+    height: 211px;
+    background-image: url(headerimg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#topbar {
+    background-color:#240046;
+    width:100%;
+    height:30px;
+    padding-left:auto;
+    padding-right:auto;
+    padding-bottom:1%;
+    border-bottom: 5px ridge #10002B;
+    font-size:14px;
+}
+#topbar a {
+    color:#E0AAFF;
+    text-decoration:none;
+}
+#headline {
+    margin:auto;
+    margin-left:1%;
+    display:inline;
+    text-align:left;
+    float:left;
+}
+#windowbuttons {
+    margin:auto;
+    margin-right:1%;
+    display:inline;
+    float:right;
+    text-align:right;
+}
+#content {
+    margin:5%;
+    padding-bottom:3%;
+}
+#navbar {
+    text-align:center;
+    width:100%;
+    height:32px;
+    background-color: #240046;
+    border-top: 5px ridge #10002B;
+    border-bottom: 5px ridge #10002B;
+}
+#navbar ul {
+    display:flex;
+    list-style-type:none;
+    justify-content:space-evenly;
+    margin:0;
+    padding:0;
+    padding-top:4px;
+}
+#navbar a {
+    text-decoration:none;
+    color:#C77DFF;
+    font-weight:600;
+}
+#navbar a:hover {
+    text-decoration:none;
+    color:#E0AAFF;
+    font-weight:600;
+}
+#footer {
+    border-top: 5px ridge #10002B;
+    border-bottom: 5px solid #240046;
+    background-color:#240046;
+    padding-left:2%;
+    font-size:12px;
+}
