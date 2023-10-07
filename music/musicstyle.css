@@ -1,0 +1,28 @@
+#albumlist {
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type:none;
+    justify-content:space-evenly;
+}
+
+#albumitem img {
+    width:160px;
+}
+
+#albumitem {
+    margin-bottom:0 auto;
+}
+
+#albumitem a {
+    text-decoration:none;
+    color:#C77DFF;
+    font-weight:600;
+    text-align:center;
+}
+
+#content a:hover {
+    text-decoration:none;
+    color:#E0AAFF;
+    font-weight:600;
+    text-align:center;
+}

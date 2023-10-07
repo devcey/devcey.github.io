@@ -1,0 +1,24 @@
+#albumheadline {
+    display: flex;
+    flex-direction: row;
+}
+#albumheadline img {
+    height:200px;
+    width:200px;
+}
+#albumheadlinetext {
+    display:flex;
+    flex-direction:column;
+    padding-left:5%;
+}
+#content a {
+    text-decoration:none;
+    color:#C77DFF;
+    font-weight:600;
+}
+
+#content a:hover {
+    text-decoration:none;
+    color:#E0AAFF;
+    font-weight:600;
+}
