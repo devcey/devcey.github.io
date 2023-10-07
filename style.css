@@ -32,6 +32,10 @@ body {
     color:#E0AAFF;
     text-decoration:none;
 }
+#topbar a:hover {
+    color:#ff0000;
+    text-decoration:none;
+}
 #headline {
     margin:auto;
     margin-left:1%;
