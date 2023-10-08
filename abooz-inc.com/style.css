@@ -6,21 +6,16 @@ html {
 }
 
 #content {
-    display:flex;
-    width:800px;
+    display:inline-flex;
 }
 #aside {
     padding-right:2.5%;
-    width:400px;
+    width:250px;
 }
 #flex {
     padding-left:2.5%;
+    width:550px;
 }
-
-#headline img h2 {
-    display:inline;
-}
-
 #aside a {
     text-decoration: none;
 }
