@@ -6,7 +6,7 @@ body {
     font-family: 'Space Mono', monospace;
 }
 #container {
-    max-width:44%;
+    max-width:800px;
     margin:0 auto;
     background-color: #3C096C;
     color:#E0AAFF;
