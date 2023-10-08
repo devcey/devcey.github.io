@@ -1,0 +1,35 @@
+html {
+    font-family:sans-serif;
+    font-size: small;
+    background-color: #1e1e2e;
+    color:#cdd6f4;
+}
+
+#content {
+    display:flex;
+    width:800px;
+}
+#aside {
+    padding-right:2.5%;
+    width:400px;
+}
+#flex {
+    padding-left:2.5%;
+}
+
+#headline img h2 {
+    display:inline;
+}
+
+#aside a {
+    text-decoration: none;
+}
+#aside p {
+    font-weight: 600;
+}
+a {
+    color:#89b4fa;
+}
+hr {
+    color:#bac2de;
+}
