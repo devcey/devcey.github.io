@@ -54,6 +54,16 @@ body {
     margin:5%;
     padding-bottom:3%;
 }
+#content a {
+    text-decoration:none;
+    color:#C77DFF;
+    font-weight:600;
+}
+#content a:hover {
+    text-decoration:none;
+    color:#E0AAFF;
+    font-weight:600;
+}
 #navbar {
     text-align:center;
     width:100%;
