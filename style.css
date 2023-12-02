@@ -18,24 +18,28 @@ body {
     background-image: url(headerimg-index.png);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
 }
 #headermusic {
     height: 211px;
     background-image: url(headerimg-music.png);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
 }
 #headerdesktop {
     height: 211px;
     background-image: url(headerimg-desktop.png);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
 }
 #headergallery {
     height: 211px;
     background-image: url(headerimg-gallery.png);
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
 }
 #topbar {
     background-color:#240046;
