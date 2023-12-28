@@ -10,43 +10,41 @@
     </head>
     <body>
         <div id="container">
-            <div id="topbar"><h1 id="headline">devceys homeground</h1><h1 id="windowbuttons">- [ ] <a href="https://duckduckgo.com/">X</a></h1></div>
+            <div id="topbar"><h1 id="headline"><a href="index.html" id="title">devceys homeground</a></h1><h1 id="windowbuttons">- [ ] <a href="https://duckduckgo.com/" id="closebutton">X</a></h1></div>
             <header id="headerindex"></header>
-            <div id="navbar">
-                <ul>
-                    <li><a href="index.html">Index</a></li>
-                    <li><a href="music/music.html">Music</a></li>
-                    <li><a href="desktop/desktop.html">Desktops</a></li>
-                    <li><a href="gallery/gallery.html">Gallery</a></li>
-                </ul>
-            </div>
             <div id="content">
-                <h1>Welcome to this website.</h1>
-                <p>Knife to meet you! I am devcey, your localhost of this website. In this website I just like to share various things, ranging from:</p>
-                <ul>
-                    <li>music I made</li>
-                    <li>Linux desktops</li>
-                    <li>other things, I guess</li>
-                </ul>
-                <p>So, what do you say? I got this neat navigation bar there. Just go exploring the website - if you feel like doing so. You can also actually close it. Up to you.</p>
-                <p>To wrap it up, here is my neofetch because I use arch btw:</p>
-                <pre style="background-color:#1e1e2e; color:white; display:inline-block; font-size:20px; padding:10px; border:3px solid #cba6f7">
-[devcey@theArchLabIII ~]$ neofetch
-<span style="color:#cba6f7"><b>      /\        devcey@theArchLabIII</b></span>
-<span style="color:#cba6f7"><b>     /  \       </span>OS</b> - Arch Linux
-<span style="color:#cba6f7"><b>    /\   \      </span>Shell</b> - /bin/bash 5.2.21
-<span style="color:#cba6f7"><b>   /      \     </span>DE</b> - GNOME 45.1
-<span style="color:#cba6f7"><b>  /   ''   \    </span>CPU</b> - Intel i5-4460 (4) @ 3.400GHz
-<span style="color:#cba6f7"><b> /   |  |  -\   </span>GPU</b> - NVIDIA GeForce GTX 760 OEM
-<span style="color:#cba6f7"><b>/_-''    ''-_\  </span>Memory</b> - 0MiB / 11839MiB (0%)
-                </pre>
-                <div id="buttons">
-                    
+                <div id="clock">
+                <p>It is currently<br><b style="font-size:xx-large;" id="time">00:00</b><br>in Norwegian time</p>
                 </div>
+                <h1>Welcome to this website.</h1>
+                <p>Knife to meet you! I am devcey, your localhost of this website. In this website I just like to share various things. Click on one of these categories to find out more!</p>
+                <br>
+                <div id="listofcategories">
+                    <a href="music/music.html">Music</a><br>
+                    <a href="desktop/desktop.html">Linux Desktops</a><br>
+                    <a href="gallery/gallery.html">Gallery</a><br>
+                    <a href="games/games.html">Games I play</a><br>
+                </div>
+                    <div id="aboozincbutton"><a href="abooz-inc.com/index.html">Secret Abooz Inc.</a></div><br>
+                <p>Clicking on the title of the page may get you back to this index page.</p>
+                <p>Enjoy!!!!!</p>
             </div>
             <div id="footer">
                 <p>https://devcey.github.io - Connected to the Internet<br>Last update: 02nd December 2023 11:30 GMT+1</p>
             </div>
         </div>
+        <script>
+            var d = new Date()
+            let hour = d.getUTCHours()
+            let min = d.getUTCMinutes()
+            if(hour + 1 < 10) {
+                hour = "0" + d.getUTCHours()
+            }
+            if(min < 10) {
+                min = "0" + d.getUTCMinutes()
+            }
+            document.getElementById("time").innerHTML = hour + 1 + ":" + min; //daylight saving time will break this 100% LMAO
+            
+        </script>
     </body>
 </html>

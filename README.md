@@ -1,4 +1,10 @@
 # devcey.github.io
 
-website lolo
-i put my music and linux desktops and other nice stuff on it
+THIS IS MY WEBSITE :)
+i put stuff on it like music and linux desktops
+yes
+the guide to getting to know me too maybe??
+
+idk
+
+anyway
