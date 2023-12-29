@@ -25,26 +25,27 @@
                     <a href="gallery/gallery.html">Gallery</a><br>
                     <a href="games/games.html">Games I play</a><br>
                 </div>
-                    <div id="aboozincbutton"><a href="abooz-inc.com/index.html">Secret Abooz Inc.</a></div><br>
+                <div id="aboozincbutton"><a href="abooz-inc.com/index.html">Secret Abooz Inc.</a></div><br>
                 <p>Clicking on the title of the page may get you back to this index page.</p>
                 <p>Enjoy!!!!!</p>
+                <p>Discord - your_entity_devcey<br>Steam - <a href="https://steamcommunity.com/id/devcey/">devcey</a><br>GitHub - <a href="https://github.com/devcey">devcey</a> (thanks for being a cool host btw)<br>YouTube - <a href="https://www.youtube.com/channel/UCG5K4NJDeL1WHjX6NxqCYOw">devcey (@your_entity_devcey)</a><br>Twatter - I refuse to use it and call it by its actual "name"</p>
                 <p style="font-size:xx-small">homeowner - hoMeowner</p>
             </div>
             <div id="footer">
-                <p>https://devcey.github.io - Connected to the Internet<br>Last update: 29th December 2023 09:35 GMT+1</p>
+                <p>https://devcey.github.io - Connected to the Internet<br>Last update: 29th December 2023 09:53 GMT+1</p>
             </div>
         </div>
         <script>
             var d = new Date()
-            let hour = d.getUTCHours()
+            let hour = d.getUTCHours() + 1
             let min = d.getUTCMinutes()
-            if(hour + 1 < 10) {
-                hour = "0" + d.getUTCHours()
+            if(hour < 10) {
+                hour = "0" + hour
             }
             if(min < 10) {
                 min = "0" + d.getUTCMinutes()
             }
-            document.getElementById("time").innerHTML = hour + 1 + ":" + min; //daylight saving time will break this 100% LMAO
+            document.getElementById("time").innerHTML = hour + ":" + min; //daylight saving time will break this 100% LMAO
             
         </script>
     </body>
