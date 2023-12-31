@@ -42,6 +42,9 @@
             if(hour < 10) {
                 hour = "0" + hour
             }
+            if(hour == 24){
+                hour = "0" + 0
+            }
             if(min < 10) {
                 min = "0" + d.getUTCMinutes()
             }
