@@ -52,6 +52,14 @@ body {
     background-position: center;
     border-bottom: 5px ridge #10002B;
 }
+#headerets2map {
+    height: 211px;
+    background-image: url(headerimg-ets2map.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-bottom: 5px ridge #10002B;
+}
 #topbar {
     background-color:#240046;
     width:100%;
